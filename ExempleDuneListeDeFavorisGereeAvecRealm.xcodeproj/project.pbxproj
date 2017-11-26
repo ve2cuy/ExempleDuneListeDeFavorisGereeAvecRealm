@@ -21,7 +21,7 @@
 		1EAA5B25D82ACC74FF3CEAFD /* Pods-ExempleDuneListeDeFavoriesGereeAvecRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExempleDuneListeDeFavoriesGereeAvecRealm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExempleDuneListeDeFavoriesGereeAvecRealm/Pods-ExempleDuneListeDeFavoriesGereeAvecRealm.debug.xcconfig"; sourceTree = "<group>"; };
 		4CC093BC3683B905589612E2 /* Pods-ExempleDuneListeDeFavoriesGereeAvecRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExempleDuneListeDeFavoriesGereeAvecRealm.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExempleDuneListeDeFavoriesGereeAvecRealm/Pods-ExempleDuneListeDeFavoriesGereeAvecRealm.release.xcconfig"; sourceTree = "<group>"; };
 		A75E370ACAC65A6EB5FE1BB1 /* Pods_ExempleDuneListeDeFavoriesGereeAvecRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExempleDuneListeDeFavoriesGereeAvecRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B57C05501FCA347C003FA182 /* ExempleDuneListeDeFavoriesGereeAvecRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExempleDuneListeDeFavoriesGereeAvecRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B57C05501FCA347C003FA182 /* ExempleDuneListeDeFavorisGereeAvecRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExempleDuneListeDeFavorisGereeAvecRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B57C05531FCA347C003FA182 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B57C05551FCA347C003FA182 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B57C05581FCA347C003FA182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 		B57C05511FCA347C003FA182 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B57C05501FCA347C003FA182 /* ExempleDuneListeDeFavoriesGereeAvecRealm.app */,
+				B57C05501FCA347C003FA182 /* ExempleDuneListeDeFavorisGereeAvecRealm.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,9 +105,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B57C054F1FCA347C003FA182 /* ExempleDuneListeDeFavoriesGereeAvecRealm */ = {
+		B57C054F1FCA347C003FA182 /* ExempleDuneListeDeFavorisGereeAvecRealm */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B57C05621FCA347C003FA182 /* Build configuration list for PBXNativeTarget "ExempleDuneListeDeFavoriesGereeAvecRealm" */;
+			buildConfigurationList = B57C05621FCA347C003FA182 /* Build configuration list for PBXNativeTarget "ExempleDuneListeDeFavorisGereeAvecRealm" */;
 			buildPhases = (
 				691C2EE090456D65AF9C32A2 /* [CP] Check Pods Manifest.lock */,
 				B57C054C1FCA347C003FA182 /* Sources */,
@@ -120,9 +120,9 @@
 			);
 			dependencies = (
 			);
-			name = ExempleDuneListeDeFavoriesGereeAvecRealm;
+			name = ExempleDuneListeDeFavorisGereeAvecRealm;
 			productName = ExempleDuneListeDeFavoriesGereeAvecRealm;
-			productReference = B57C05501FCA347C003FA182 /* ExempleDuneListeDeFavoriesGereeAvecRealm.app */;
+			productReference = B57C05501FCA347C003FA182 /* ExempleDuneListeDeFavorisGereeAvecRealm.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -141,7 +141,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B57C054B1FCA347C003FA182 /* Build configuration list for PBXProject "ExempleDuneListeDeFavoriesGereeAvecRealm" */;
+			buildConfigurationList = B57C054B1FCA347C003FA182 /* Build configuration list for PBXProject "ExempleDuneListeDeFavorisGereeAvecRealm" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -154,7 +154,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B57C054F1FCA347C003FA182 /* ExempleDuneListeDeFavoriesGereeAvecRealm */,
+				B57C054F1FCA347C003FA182 /* ExempleDuneListeDeFavorisGereeAvecRealm */,
 			);
 		};
 /* End PBXProject section */
@@ -406,7 +406,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B57C054B1FCA347C003FA182 /* Build configuration list for PBXProject "ExempleDuneListeDeFavoriesGereeAvecRealm" */ = {
+		B57C054B1FCA347C003FA182 /* Build configuration list for PBXProject "ExempleDuneListeDeFavorisGereeAvecRealm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B57C05601FCA347C003FA182 /* Debug */,
@@ -415,7 +415,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B57C05621FCA347C003FA182 /* Build configuration list for PBXNativeTarget "ExempleDuneListeDeFavoriesGereeAvecRealm" */ = {
+		B57C05621FCA347C003FA182 /* Build configuration list for PBXNativeTarget "ExempleDuneListeDeFavorisGereeAvecRealm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B57C05631FCA347C003FA182 /* Debug */,

@@ -11,6 +11,7 @@ import RealmSwift
 class ViewController: UIViewController, UITableViewDataSource {
     var tâches: Results<Tache>?
     
+    @IBOutlet weak var unTableVireDeTâches: UITableView!
     // ************************************************************
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return (tâches?.count)!
@@ -37,6 +38,10 @@ class ViewController: UIViewController, UITableViewDataSource {
         
     } // viewDidLoad
 
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        unTableVireDeTâches.reloadData()
+    }
     // ************************************************************
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

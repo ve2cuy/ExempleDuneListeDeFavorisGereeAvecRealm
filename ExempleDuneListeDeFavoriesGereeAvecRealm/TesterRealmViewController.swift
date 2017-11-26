@@ -21,6 +21,9 @@ class TesterRealmViewController: UIViewController {
     
     @IBOutlet weak var tâchePriorité: UISegmentedControl!
     
+    @IBAction func retourner(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
     @IBAction func ajouterUneTâche(_ sender: Any) {
         let uneTâche = Tache(nom: tâcheNom.text!, detailTache: tâcheDescription.text!, priorite: Int(tâchePriorité.selectedSegmentIndex))
         let realm = try! Realm()
@@ -28,6 +31,7 @@ class TesterRealmViewController: UIViewController {
             realm.add(uneTâche)
         }
         print(realm.objects(Tache.self))
+        dismiss(animated: true, completion: nil)
     } // ajouterUneTâche
     
     override func viewDidLoad() {
