@@ -5,20 +5,21 @@
 //  Copyright © 2017 Alain. All rights reserved.
 
 import UIKit
+import RealmSwift
 
 // ************************************************************
 class ViewController: UIViewController, UITableViewDataSource {
-    var taches = Array<Tache>()
+    var tâches: Results<Tache>?
     
     // ************************************************************
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        return (tâches?.count)!
     } // numberOfRowsInSection
     
     // ************************************************************
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cellule = UITableViewCell()
-        cellule.textLabel?.text = String(indexPath.row)
+        cellule.textLabel?.text = tâches?[indexPath.row].nom
         return cellule
     } // cellForRowAt
     
@@ -26,6 +27,14 @@ class ViewController: UIViewController, UITableViewDataSource {
     // ************************************************************
     override func viewDidLoad() {
         super.viewDidLoad()
+        let realm = try! Realm()
+        tâches = realm.objects(Tache.self)
+        for tâche in tâches! {
+            print(tâche.nom)
+        }
+        
+        // print(tâche)
+        
     } // viewDidLoad
 
     // ************************************************************
