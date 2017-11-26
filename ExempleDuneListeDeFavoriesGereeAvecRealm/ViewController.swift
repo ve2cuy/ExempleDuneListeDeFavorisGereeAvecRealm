@@ -8,7 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITableViewDataSource {
+    var taches = Array<Tache>()
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 2
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cellule = UITableViewCell()
+        cellule.textLabel?.text = String(indexPath.row)
+        return cellule
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

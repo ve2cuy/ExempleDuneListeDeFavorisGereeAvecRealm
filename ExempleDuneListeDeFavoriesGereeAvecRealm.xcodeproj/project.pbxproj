@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15BDE4AFC7304FD276FCD7A7 /* Pods_ExempleDuneListeDeFavoriesGereeAvecRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75E370ACAC65A6EB5FE1BB1 /* Pods_ExempleDuneListeDeFavoriesGereeAvecRealm.framework */; };
 		B57C05541FCA347C003FA182 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57C05531FCA347C003FA182 /* AppDelegate.swift */; };
 		B57C05561FCA347C003FA182 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57C05551FCA347C003FA182 /* ViewController.swift */; };
 		B57C05591FCA347C003FA182 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57C05571FCA347C003FA182 /* Main.storyboard */; };
 		B57C055B1FCA347C003FA182 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B57C055A1FCA347C003FA182 /* Assets.xcassets */; };
 		B57C055E1FCA347C003FA182 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57C055C1FCA347C003FA182 /* LaunchScreen.storyboard */; };
+		B57C05661FCA34BC003FA182 /* TesterRealmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57C05651FCA34BC003FA182 /* TesterRealmViewController.swift */; };
+		B5E6B5FD1FCA4135009BEBBB /* Tache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E6B5FC1FCA4135009BEBBB /* Tache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1EAA5B25D82ACC74FF3CEAFD /* Pods-ExempleDuneListeDeFavoriesGereeAvecRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExempleDuneListeDeFavoriesGereeAvecRealm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExempleDuneListeDeFavoriesGereeAvecRealm/Pods-ExempleDuneListeDeFavoriesGereeAvecRealm.debug.xcconfig"; sourceTree = "<group>"; };
+		4CC093BC3683B905589612E2 /* Pods-ExempleDuneListeDeFavoriesGereeAvecRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExempleDuneListeDeFavoriesGereeAvecRealm.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExempleDuneListeDeFavoriesGereeAvecRealm/Pods-ExempleDuneListeDeFavoriesGereeAvecRealm.release.xcconfig"; sourceTree = "<group>"; };
+		A75E370ACAC65A6EB5FE1BB1 /* Pods_ExempleDuneListeDeFavoriesGereeAvecRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExempleDuneListeDeFavoriesGereeAvecRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B57C05501FCA347C003FA182 /* ExempleDuneListeDeFavoriesGereeAvecRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExempleDuneListeDeFavoriesGereeAvecRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B57C05531FCA347C003FA182 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B57C05551FCA347C003FA182 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,8 @@
 		B57C055A1FCA347C003FA182 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B57C055D1FCA347C003FA182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B57C055F1FCA347C003FA182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B57C05651FCA34BC003FA182 /* TesterRealmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesterRealmViewController.swift; sourceTree = "<group>"; };
+		B5E6B5FC1FCA4135009BEBBB /* Tache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15BDE4AFC7304FD276FCD7A7 /* Pods_ExempleDuneListeDeFavoriesGereeAvecRealm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A165EDD75236C87780F8B6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A75E370ACAC65A6EB5FE1BB1 /* Pods_ExempleDuneListeDeFavoriesGereeAvecRealm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B57C05471FCA347C003FA182 = {
 			isa = PBXGroup;
 			children = (
 				B57C05521FCA347C003FA182 /* ExempleDuneListeDeFavoriesGereeAvecRealm */,
 				B57C05511FCA347C003FA182 /* Products */,
+				EE6BDA587BBA8C15C7917D86 /* Pods */,
+				2A165EDD75236C87780F8B6B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +73,33 @@
 		B57C05521FCA347C003FA182 /* ExempleDuneListeDeFavoriesGereeAvecRealm */ = {
 			isa = PBXGroup;
 			children = (
+				B5E6B5FB1FCA411C009BEBBB /* Les classes */,
 				B57C05531FCA347C003FA182 /* AppDelegate.swift */,
 				B57C05551FCA347C003FA182 /* ViewController.swift */,
 				B57C05571FCA347C003FA182 /* Main.storyboard */,
 				B57C055A1FCA347C003FA182 /* Assets.xcassets */,
 				B57C055C1FCA347C003FA182 /* LaunchScreen.storyboard */,
 				B57C055F1FCA347C003FA182 /* Info.plist */,
+				B57C05651FCA34BC003FA182 /* TesterRealmViewController.swift */,
 			);
 			path = ExempleDuneListeDeFavoriesGereeAvecRealm;
+			sourceTree = "<group>";
+		};
+		B5E6B5FB1FCA411C009BEBBB /* Les classes */ = {
+			isa = PBXGroup;
+			children = (
+				B5E6B5FC1FCA4135009BEBBB /* Tache.swift */,
+			);
+			path = "Les classes";
+			sourceTree = "<group>";
+		};
+		EE6BDA587BBA8C15C7917D86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EAA5B25D82ACC74FF3CEAFD /* Pods-ExempleDuneListeDeFavoriesGereeAvecRealm.debug.xcconfig */,
+				4CC093BC3683B905589612E2 /* Pods-ExempleDuneListeDeFavoriesGereeAvecRealm.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +109,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B57C05621FCA347C003FA182 /* Build configuration list for PBXNativeTarget "ExempleDuneListeDeFavoriesGereeAvecRealm" */;
 			buildPhases = (
+				691C2EE090456D65AF9C32A2 /* [CP] Check Pods Manifest.lock */,
 				B57C054C1FCA347C003FA182 /* Sources */,
 				B57C054D1FCA347C003FA182 /* Frameworks */,
 				B57C054E1FCA347C003FA182 /* Resources */,
+				0B1992125F37F5447F6A0B3A /* [CP] Embed Pods Frameworks */,
+				A4B4A483FCC904A74B8C35F5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +172,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B1992125F37F5447F6A0B3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ExempleDuneListeDeFavoriesGereeAvecRealm/Pods-ExempleDuneListeDeFavoriesGereeAvecRealm-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExempleDuneListeDeFavoriesGereeAvecRealm/Pods-ExempleDuneListeDeFavoriesGereeAvecRealm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		691C2EE090456D65AF9C32A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExempleDuneListeDeFavoriesGereeAvecRealm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4B4A483FCC904A74B8C35F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExempleDuneListeDeFavoriesGereeAvecRealm/Pods-ExempleDuneListeDeFavoriesGereeAvecRealm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B57C054C1FCA347C003FA182 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B57C05561FCA347C003FA182 /* ViewController.swift in Sources */,
+				B57C05661FCA34BC003FA182 /* TesterRealmViewController.swift in Sources */,
 				B57C05541FCA347C003FA182 /* AppDelegate.swift in Sources */,
+				B5E6B5FD1FCA4135009BEBBB /* Tache.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,11 +371,13 @@
 		};
 		B57C05631FCA347C003FA182 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EAA5B25D82ACC74FF3CEAFD /* Pods-ExempleDuneListeDeFavoriesGereeAvecRealm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NFZJ42XSFR;
 				INFOPLIST_FILE = ExempleDuneListeDeFavoriesGereeAvecRealm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ve2cuy.ExempleDuneListeDeFavoriesGereeAvecRealm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,11 +388,13 @@
 		};
 		B57C05641FCA347C003FA182 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CC093BC3683B905589612E2 /* Pods-ExempleDuneListeDeFavoriesGereeAvecRealm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NFZJ42XSFR;
 				INFOPLIST_FILE = ExempleDuneListeDeFavoriesGereeAvecRealm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ve2cuy.ExempleDuneListeDeFavoriesGereeAvecRealm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
